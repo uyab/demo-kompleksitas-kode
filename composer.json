@@ -1,0 +1,21 @@
+{
+    "name": "uyab/demo-kompleksitas-kode",
+    "description": "Demo kompleksitas kode",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bayu Hendra Winata",
+            "email": "uyab.exe@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "packages/uyab/kamus/src/helpers.php"
+        ]
+    }
+}
